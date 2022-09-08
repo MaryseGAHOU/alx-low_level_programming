@@ -2,9 +2,11 @@
 
 /**
  *
- *Hello, puts
- *    
-*/
+ *  * Hello - puts block
+ *
+ *   * Return: 0
+ *
+ *    */
 
 int main(void)
 
