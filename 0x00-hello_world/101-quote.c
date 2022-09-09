@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity.
- * Return: 1 if success.
+ * main - quote.c
+ * Return: 1 if success
  */
 int main(void)
 {
