@@ -1,12 +1,16 @@
 #include <stdio.h>
 
+
+
 /**
  *
- *  * main - main block
+ *  *main - the main function
  *
- *   * Return: 0
+ *   *
  *
- *    */
+ *    *Return: 0 if the program was runnig successfuly
+ *
+ *     */
 
 int main(void)
 
