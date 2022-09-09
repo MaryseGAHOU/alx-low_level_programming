@@ -1,23 +1,10 @@
 #include <stdio.h>
-
-
-
 /**
- *
- *  *main - the main function
- *
- *   *
- *
- *    *Return: 0 if the program was runnig successfuly
- *
- *     */
-
+  * Hello - puts
+  * Return: 0
+  */
 int main(void)
-
 {
-
 		puts("\"Programming is like building a multilingual puzzle");
-
-			return (0);
-
+		return (0);
 }
