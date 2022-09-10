@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main -  Smile in the mirror
- * Return: 0 
+ * main - Smile in the mirror
+ * Return: 0 if success
  */
 
 int main(void)
