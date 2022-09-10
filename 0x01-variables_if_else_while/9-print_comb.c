@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Patience persistence and perspiration
+ * main - patience persistence and perspiration
  * Return: 0 if success
  */
 
