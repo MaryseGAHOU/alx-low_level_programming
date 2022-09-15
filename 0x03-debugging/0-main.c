@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - multiple mains
+ * main - causes multiple mains
  * Return: 0
  */
 int main(void)
