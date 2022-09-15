@@ -1,24 +1,26 @@
 #include <stdio.h>
+
 /**
- * main - patience persistence and perspiration
- * Return: 0 if success
+ * main - Print all possible combinations of single digit numbers
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int n;
-	n = 48;
+	int number;
 
-	while (n <= 57)
+	for (number = 0; number <= 9; number++)
 	{
-		putchar (n);
+		putchar(number + '0');
 
-		if (n != 57)
+		if (number < 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		n++;
 	}
-	putchar ('\n');
+	putchar('\n');
+
 	return (0);
 }
