@@ -1,45 +1,23 @@
 #include "main.h"
 
 /**
- * print_number -  checks for checks for a digit (0 through 9).
- * @n: n -  Variable
- * Return: Always 0.
+ * print_number - check the code
+ * @c: the parameter
  */
-void print_number(int n)
+
+void print_number(int c)
 {
-	unsigned int z;
-	int m, b;
+	unsigned int i = c;
 
-	b = 10;
-
-	if (n < 10 && n >= 0)
+	if (c < 0)
 	{
-		_putchar (n + '0');
-	}
-	else if (n > -10 && n < 0)
-	{
-		n = n - 2 * n;
 		_putchar('-');
-		_putchar (n + '0');
+		i = -i;
 	}
-	else
-	{
-		if (n < 0)
-		{
-			n = n * -1;
-			_putchar ('-');
-		}
-		z = n;
-		while (z / b > 9)
-		{
-			b = b * 10;
-		}
-		while (b > 0)
-		{
-			m = z / b;
-			z = z % b;
-			_putchar (m + '0');
-			b = b / 10;
-		}
-	}
+
+	if ((i / 10) > 0)
+		print_number(i / 10);
+
+	_putchar((i % 10) + '0');
 }
+
