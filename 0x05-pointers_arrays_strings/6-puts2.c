@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,9 +9,9 @@
 void puts2(char *str)
 
 	int i;
-	int size = _strlen(str);
+	int len = _strlen(str);
 
-	for (i = 0; i < size; i += 2)
+	for (i = 0; i < len; i += 2)
 	{
 		_putchar(str[i]);
 	}
