@@ -8,8 +8,12 @@ int _sqrt_recursion(int n)
 {
 	return (natural_square(n, 1));
 }
-
-
+/**
+ * natural_square - a function that help to find natural_square
+ * @x: integer
+ * @y: integer
+ * Return: square root or -1
+ */
 int natural_square(int x, int y)
 {
 	int s = y * y;
